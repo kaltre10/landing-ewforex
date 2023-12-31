@@ -1,0 +1,140 @@
+.hero {
+    color: white;
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 95px);
+  }
+  
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+  }
+  
+  .heroContent {
+    width: 50%;
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  
+  .h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    line-height: 55px;
+  }
+  
+  .p {
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .actionButtons a, .actionButtonsMobile a{
+    text-decoration: none;
+  }
+  
+  .button {
+    color: #ffffff;
+    padding: 10px 15px;
+    min-width: 145px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #00000038;
+    /* box-shadow: 0 4px 25px rgb(48 93 32 / 66%); */
+    box-shadow: 0 4px 25px rgb(57 93 114 / 66%);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgb(0 124 231 / 32%);
+    transition: background 0.3s;
+    text-align: center;
+    display: grid;
+    place-items: center;
+  }
+
+  .button:hover{
+    background: #249f3185;
+  }
+
+.heroform{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.actionButtonsMobile{
+  display: none;   
+}
+
+
+@media (max-width: 860px) { 
+
+  .hero{
+    align-items: flex-start;
+    padding: 0;
+    height: auto;
+  }
+
+  .heroContent {
+    margin:  0 auto;
+  }
+
+  .container {
+    flex-direction: column;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .heroContent {
+    width: 100%;
+  }
+
+  .h2 {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: .2rem;
+    line-height: 30px;
+  }
+
+  .p{
+    text-align: center;
+  }
+
+  .actionButtons {
+    visibility: hidden;
+  }
+
+  .heroform{
+    width: 100%;
+  }
+
+  .actionButtonsMobile{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    width: 100%;
+    gap: 0 35px;
+  }
+  
+}
+
+@media (max-width: 450px) {
+  .h2 {
+    font-size: 1rem;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .actionButtonsMobile{
+    flex-wrap: wrap;
+    padding: 25px 0px;
+  }
+}

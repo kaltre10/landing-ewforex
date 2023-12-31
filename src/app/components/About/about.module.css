@@ -1,0 +1,84 @@
+.aboutSection {
+    background-color: #f5f5f5;
+    padding: 20px 100px;
+    /* height: 100vh; */
+    display: flex;
+    background: rgb(16,23,40);
+    color: #f5f5f5;
+  }
+
+  
+  .aboutContent {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .aboutImage {
+    flex: 1;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    background: rgb(30,52,154);
+    background: radial-gradient(circle, rgba(30,52,154,1) 0%, rgba(16,23,40,1) 36%);
+  }
+
+  .aboutImage img {
+    width: 100%;
+    max-height: auto;
+    border-radius: 25px;
+    max-width: 600px;
+  }
+  
+  .aboutText {
+    flex: 2;
+    text-align: justify;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .aboutText p{
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .aboutText a{
+    color: aliceblue;
+  }
+  
+  .readMoreButton {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+
+    .aboutSection{
+      padding: 100px 20px 0px 20px;
+    }
+
+    .aboutText h2{
+      padding: 50px 0;
+    }
+
+    .aboutContent {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .aboutImage,
+    .aboutText {
+      flex: 1;
+      max-width: 100%;
+    }
+
+    .aboutImage{
+      padding: 50px 0;
+    }
+  
+    .aboutImage img {
+      width: 100%;
+    }
+  }
+  
