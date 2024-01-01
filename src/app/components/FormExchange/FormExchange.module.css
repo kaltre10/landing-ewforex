@@ -34,7 +34,7 @@
 }
 
 .buyTitle {
-  padding: 10px;
+  padding: 0;
   border-radius: 10px;
   font-weight: 100;
   width: 50%;
@@ -43,7 +43,7 @@
 }
 
 .sellTitle {
-  padding: 10px;
+  padding: 0;
   border-radius: 10px;
   font-weight: 100;
   width: 50%;
@@ -105,7 +105,7 @@
   color: white;
   position: absolute;
   right: 0;
-  bottom: 148px;
+  bottom: 143px;
   right: 50px;
   cursor: pointer;
 }

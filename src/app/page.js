@@ -24,8 +24,14 @@ export default function Home () {
           sell: res[0].ven_divisa
         })
         setLoad(false)
+      }).catch(error => {
+        console.error('Error fetching data:', error)
+      })
+      .finally(() => {
+        setLoad(false)
       })
   }, [])
+  console.log('oka')
 
   return (<>
     {

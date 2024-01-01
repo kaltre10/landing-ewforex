@@ -9,7 +9,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.left}>
         <div className={styles.logo}>
-          <Image src={imgSrc} width={200} alt="Picture of the author" />
+          <Image src={imgSrc} width={200} alt="ewforex.net" />
         </div>
       </div>
       <div className={styles.right}>

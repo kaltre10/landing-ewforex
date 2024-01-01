@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './about.module.css'
 import Image from 'next/image'
-import fachada from '../../../../public/fachada.webp'
+import fachada from '../../../../public/fachada.svg'
 
 const About = () => {
   return (

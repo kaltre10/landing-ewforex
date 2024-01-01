@@ -3,8 +3,8 @@
 import React, { useEffect, useState } from 'react'
 import styles from './FormExchange.module.css'
 import Image from 'next/image'
-import imgUSD from '../../../../public/usd.png'
-import imgPEN from '../../../../public/pen.png'
+import imgUSD from '../../../../public/usd.svg'
+import imgPEN from '../../../../public/pen.svg'
 import PropTypes from 'prop-types'
 
 import 'primeicons/primeicons.css'

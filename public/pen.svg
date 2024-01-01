@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>pen</title>
+	<defs>
+		<image  width="24" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAQBAMAAAD+CqKmAAAAAXNSR0IB2cksfwAAACFQTFRF/0tW/0tV/0tV9fX1/01U/0tV/0tV9fX1/0tV/0tV/0pV+oUXpwAAAAt0Uk5TR8zd3Ubm///ly0UGjlFvAAAAKklEQVR4nGNgVFJSMgYCICXCEJaWllYOBEAqgyENwUkbbBwUh3oivDALAApRSrWtwS22AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="4"/>
+</svg>

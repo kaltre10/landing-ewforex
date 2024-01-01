@@ -41,6 +41,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
  - vercel
 
-  - vercel --prod
+ - vercel --prod
+
+static: 
+ - npm deploy
 
 
